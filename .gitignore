@@ -137,3 +137,9 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+ai-ticket-assistant/.env
+ai-ticket-assistant/node_modules
+ai-ticket-frontend/node_modules
+ai-ticket-frontend/.env
