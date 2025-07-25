@@ -143,3 +143,23 @@ ai-ticket-assistant/.env
 ai-ticket-assistant/node_modules
 ai-ticket-frontend/node_modules
 ai-ticket-frontend/.env
+
+# Ignore all node_modules folders
+**/node_modules/
+
+# Ignore all .env files
+**/.env
+
+# Ignore all .json files (including data, config, etc.)
+**/*.json
+
+# Ignore package and lock files
+**/package.json
+**/package-lock.json
+
+# Optional: Ignore logs
+**/*.log
+
+# Optional: Ignore build folders (like in React)
+**/build/
+**/dist/
